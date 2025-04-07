@@ -32,7 +32,7 @@ As you build, you can **track the progress of completed solutions here**. I'll b
 -  [ ] Text justification
 
 ## 1D Dynamic Programming
-- [ ] Climbing stairs
+- [X] Climbing stairs
 - [ ] House robber
 - [ ] Word break
 - [ ] Coin change
