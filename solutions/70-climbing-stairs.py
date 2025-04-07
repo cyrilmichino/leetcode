@@ -19,4 +19,22 @@ def climbStairs(n: int) -> int:
     return cache[n]
 
 
-print (climbStairs(20))
+### Bottom-up Dynamic Programming
+def climbStairs2(n: int) -> int:
+    ## Base cases
+    if n == 1:
+        return 1
+    if n == 2:
+        return 2
+
+    ## Iterative solution
+    a, b = 1, 2
+    for i in range(2,n):
+        c = a + b
+        a = b
+        b = c
+    return c
+
+
+print(climbStairs(20))
+print(climbStairs2(20))
